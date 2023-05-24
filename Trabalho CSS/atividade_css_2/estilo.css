@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Minha Fonte";
+    src: url("joystix monospace.ttf");
+}
+body {
+   
+    font-family: "joystix monospace";
+    margin: 0;
+    padding: 20px;
+    background-color: #71d868;
+    text-align:center;
+    font-size: 18px;
+  }
+  
+  /* Estilo para o cabeçalho principal */
+  #intro-pag {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: "Minha Fonte";
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+  /* Estilo para a lista de jogos influentes */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para os conteúdos padrão */
+  .conteudo-padrao {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    font-family: "Minha Fonte";
+    font-size: 20px;
+    background-color: #fac4dd;
+    color: rgb(8, 8, 8);
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Estilo para as imagens */
+  img {
+    max-width: 100%;
+    height: 350px;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #080808;
+    color: hsl(0, 0%, 0%);
+  }
+#intro-pag h1{
+  margin-bottom: 50px;
+}
